@@ -1,6 +1,6 @@
 {
   "name": "@alitajs/kbone",
-  "version": "2.3.9",
+  "version": "2.3.9-beta.2",
   "description": "@alitajs/kbone",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/alitajs/alita/tree/master/packages/kbone#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^0.9.0",
+    "mp-webpack-plugin": "^0.9.11"
   }
 }
