@@ -1,6 +1,7 @@
 import { IApi } from '@umijs/types';
 
 export default function (api: IApi) {
+  let presets = [];
   let plugins = [
     // commands
     require.resolve('./plugins/commands/version'),
@@ -29,7 +30,17 @@ export default function (api: IApi) {
   if (api.userConfig.appType === 'cordova') {
     plugins.push(require.resolve('@alitajs/cordova'));
   }
+  if (api.userConfig.appType == 'pc' && process.env.UMI_UI !== 'none') {
+    presets.push(require.resolve('@umijs/preset-ui'));
+  }
+  if (api.userConfig.tabsLayout) {
+    plugins.push(require.resolve('@alitajs/tabs-layout'));
+  }
+  if (api.userConfig.locale) {
+    plugins.push(require.resolve('@umijs/plugin-locale'));
+  }
   return {
+    presets,
     plugins
   };
 }

@@ -1,0 +1,32 @@
+{
+  "name": "@alitajs/umi-presets-pc",
+  "version": "2.3.9",
+  "description": "@alitajs/umi-presets-pc",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitajs/alita"
+  },
+  "keywords": [
+    "umi",
+    "alita"
+  ],
+  "authors": [
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/alitajs/alita/issues",
+  "homepage": "https://github.com/alitajs/alita/tree/master/packages/umi-presets-pc#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@umijs/plugin-locale": "^0.4.3",
+    "@alitajs/tabs-layout": "2.3.9",
+    "@umijs/preset-ui": "^2.1.3"
+  }
+}

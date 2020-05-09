@@ -34,7 +34,6 @@ const getPackages = require('./utils/getPackages');
         },
         keywords: ['umi', 'alita'],
         authors: [
-          'chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)',
           'xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)',
         ],
         license: 'MIT',
