@@ -1,0 +1,44 @@
+{
+  "name": "@alitajs/deployment",
+  "version": "0.0.1",
+  "description": "@alitajs/deployment",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitajs/alita"
+  },
+  "keywords": [
+    "umi",
+    "alita"
+  ],
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)",
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/alitajs/alita/issues",
+  "homepage": "https://github.com/alitajs/alita/tree/master/packages/deployment#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@umijs/types": "^3.1.4",
+    "@umijs/utils": "^3.1.4",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "fs-extra": "^9.0.0",
+    "http-errors": "~1.6.2",
+    "http-proxy-middleware": "^1.0.3",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.2"
+  }
+}
